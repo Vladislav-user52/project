@@ -1,6 +1,6 @@
 all: project
 clean:
-	rm -f package *.o project *.o hello.pdf
+	rm -f package *.o project *.o hello.pdf image.pdf temp.jpg
 project: package.go
 	go build -o project package.go
 run: 
